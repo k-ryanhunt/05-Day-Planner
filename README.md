@@ -11,7 +11,16 @@ We were tasked with creating a day planner where the user can write in tasks the
 3.  I then created a save button so that the user can keep their information stored into local storage and retrieve the same tasks on reload.
 4.  The last thing that I created was a feature to run through the time blocks and show a different color for the past. present, and future hours.
 
+## What should the Day Planner include?
+
+- Current date
+- Time blocks for a business work day
+- Color change with past, present, and future hours
+- Saves input when user clicks the save button
+- Reloads the information when the user refreshes the screengit add -
+
 ## Example of the Day Planner
 ![Screenshot](./assets/images/planner.png)
 
 # Check out the Day Planner here!
+https://k-ryanhunt.github.io/Day-Planner/
