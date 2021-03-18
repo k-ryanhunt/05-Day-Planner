@@ -1,22 +1,24 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Open sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 3px solid black;
+  color: #ffffff;
   padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: black;
+  border-radius: 0;
   border-bottom: 10px solid black;
 }
 
@@ -25,47 +27,80 @@ textarea{
 }
 
 .time-block {
+  text-align: center;
   align-content: center;
+  border-radius: 15px;
 }
 
 .row {
-  align-items: center;
   white-space: pre-wrap;
   height: 80px;
+  border-top: 1px solid white;
 }
 
 .hour {
   text-align: center;
   background-color: #ffffff;
   color: #000000;
-  border-top: 2px dashed #000000;
+  border-top: 1px dashed #000000;
+  height: 80px;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-image: linear-gradient(
+    45deg,
+    #b0b0b0 25%,
+    #8f8f8f 25%,
+    #8f8f8f 50%,
+    #b0b0b0 50%,
+    #b0b0b0 75%,
+    #8f8f8f 75%,
+    #8f8f8f 100%
+  );
+  background-size: 8.49px 8.49px;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-image: linear-gradient(
+    45deg,
+    #b30054 25%,
+    #8a0040 25%,
+    #8a0040 50%,
+    #b30054 50%,
+    #b30054 75%,
+    #8a0040 75%,
+    #8a0040 100%
+  );
+  background-size: 8.49px 8.49px;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-image: linear-gradient(
+    45deg,
+    #00b357 25%,
+    #008744 25%,
+    #008744 50%,
+    #00b357 50%,
+    #00b357 75%,
+    #008744 75%,
+    #008744 100%
+  );
+  background-size: 8.49px 8.49px;
   color: white;
 }
 
 .saveBtn {
-  border-left: 3px solid black;
+  font-size: 30px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #08204d;
   border: none;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  background-color: #06AED5;
   color: white;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
 }
