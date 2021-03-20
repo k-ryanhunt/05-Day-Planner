@@ -24,10 +24,6 @@ saveBtn.on("click", function () {
   localStorage.setItem(hour, description);
 });
 
-// saveBtn.click( function () {
-//   $(this).empty(saveBtn).append("&#9745;");
-// })
-
 function colorChange() {
   hour = time.hours();
   $(".time-block").each(function () {
