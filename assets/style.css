@@ -8,10 +8,10 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #ffffff;
+  color: black;
   padding: 10px;
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: bolder;
+  font-size:  17px;
 }
 
 .jumbotron {
@@ -35,7 +35,7 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
+  border-top: 2px solid white;
 }
 
 .hour {
@@ -50,12 +50,12 @@ textarea {
   background-image: linear-gradient(
     45deg,
     #b0b0b0 25%,
-    #8f8f8f 25%,
-    #8f8f8f 50%,
+    #a0a0a0 25%,
+    #a0a0a0 50%,
     #b0b0b0 50%,
     #b0b0b0 75%,
-    #8f8f8f 75%,
-    #8f8f8f 100%
+    #a0a0a0 75%,
+    #a0a0a0 100%
   );
   background-size: 8.49px 8.49px;
   color: white;
@@ -64,13 +64,13 @@ textarea {
 .present {
   background-image: linear-gradient(
     45deg,
-    #b30054 25%,
-    #8a0040 25%,
-    #8a0040 50%,
-    #b30054 50%,
-    #b30054 75%,
-    #8a0040 75%,
-    #8a0040 100%
+    #ff6961 25%,
+    #fc534a 25%,
+    #fc534a 50%,
+    #ff6961 50%,
+    #ff6961 75%,
+    #fc534a 75%,
+    #fc534a 100%
   );
   background-size: 8.49px 8.49px;
   color: white;
@@ -79,13 +79,13 @@ textarea {
 .future {
   background-image: linear-gradient(
     45deg,
-    #00b357 25%,
-    #008744 25%,
-    #008744 50%,
-    #00b357 50%,
-    #00b357 75%,
-    #008744 75%,
-    #008744 100%
+    #07cc66 25%,
+    #77dd77 25%,
+    #77dd77 50%,
+    #07cc66 50%,
+    #07cc66 75%,
+    #77dd77 75%,
+    #77dd77 100%
   );
   background-size: 8.49px 8.49px;
   color: white;
@@ -93,10 +93,8 @@ textarea {
 
 .saveBtn {
   font-size: 30px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #08204d;
-  border: none;
+  background-color: #123880;
+  border-top: 1px solid white;
   color: white;
 }
 
