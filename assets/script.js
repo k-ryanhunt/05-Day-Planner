@@ -9,7 +9,7 @@ function startSchedule() {
   $(".time-block").each(function () {
     var id = $(this).attr("id");
     var description = localStorage.getItem(id);
-    if (description != "null") {
+    if (description != null) {
       $(this).find(".description").val(description);
     }
   });
