@@ -15,6 +15,7 @@ textarea {
   font-family: "Montserrat";
 }
 
+
 div.col-1 {
   display: flex;
 }
@@ -27,11 +28,15 @@ img {
 .lead {
   font-family: "Montserrat";
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.75rem;
+  margin-top: 1%;
+  color: gray;
 }
 
 #currentDay {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px cyan;
+  color: rgb(34, 123, 238);
 }
 
 .jumbotron {
@@ -61,37 +66,42 @@ img {
 
 .hour {
   text-align: center;
-  background-color: #dd2b8d;
-  color: white;
+  background-color: white;
+  color: rgb(34, 123, 238);
+  text-shadow: 1px 1px cyan;
+  font-family: "Montserrat";
+  font-weight: 800;
   height: 80px;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
 }
 
 .past {
-  background-color: tomato;
+  background: #b0bac0;
 }
 
 .present {
-  background-color: rgb(141, 194, 63);
+  background: #437dc9;
+background: -webkit-linear-gradient(top left, #437dc9, #67e2e2);
+background: -moz-linear-gradient(top left, #437dc9, #67e2e2);
+background: linear-gradient(to bottom right, #437dc9, #67e2e2);
 }
 
 .future {
-  background-color:royalblue
+  background: #3c6191;
 }
 
 .saveBtn {
-  background-color: #dd2b8d;
+  background-color: white;
   border: none;
-  color: white;
-  border-radius: 30px;
-  font-size: 19px;
+  color: rgb(34, 123, 238);
+  text-shadow: 1px 1px rgb(25, 255, 255);
+  font-size: 20px;
 }
 
 .saveBtn:hover {
   transition: all 0.3s ease-in-out;
-  border: 3px solid lightgreen;
+  color: black;
 }
 
 footer {
